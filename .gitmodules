@@ -1,0 +1,4 @@
+[submodule "resume"]
+	path = themes/resume
+	url = https://gitlab.com/pead/resume.git
+	ignore = dirty
