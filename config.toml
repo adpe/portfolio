@@ -1,0 +1,35 @@
+baseURL = "https://adrianperez.me/"
+languageCode = "en-us"
+title = "Adrian Perez Rodriguez"
+theme = "resume"
+
+[params]
+    firstName = "Adrian"
+    lastName = "Perez"
+    address = "Brig, Switzerland"
+    contactNote = "Dev Tools Engineer"
+    profileImage = "img/me.jpg"
+    email = "p.adrian@gmx.ch"
+    description = "I am a web developer at Fernfachhochschule Schweiz currently living in Brig, Switzerland. My interests range from programming to travel. I am also interested in DIY, sports, and technology."
+    favicon = "images/favicon.ico"
+    showSkills = true
+    showProjects = false
+    showOpenSource = false
+    showPublications = false
+    showExperience = true
+    showEducation = true
+
+[[params.handles]]
+    name = "LinkedIn"
+    link = "https://www.linkedin.com/in/perez-r-adrian/"
+    icon = "linkedin"
+
+[[params.handles]]
+    name = "GitHub"
+    link = "https://github.com/adpe/"
+    icon = "github"
+
+[[params.handles]]
+    name = "Stack Overflow"
+    link = "https://stackoverflow.com/users/story/7262345"
+    icon = "stack-overflow"

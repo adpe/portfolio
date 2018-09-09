@@ -1,0 +1,20 @@
+[
+  {
+      "grouping":"Architecture",
+      "skills":[ "IP Networking","DNS","Firewalls","Microservices"]
+  },{
+      "grouping":"Languages, Operating Systems & Tools",
+      "skills":[ "html","css","javascript","jquery","git","linux","bash","php","bootstrap","hugo","python","android"]
+  },
+  {
+      "grouping":"Platform Development & Administration",
+      "skills":[ "GitLab","Moodle","Apache","MariaDB","Wordpress","phpComasy","CodeIgniter","Kaltura"]
+  },
+  {
+    "grouping":"Containers & Cloud",
+      "skills":[
+          {"name":"Docker","link":"https://docker.com"},
+          {"name":"Vagrant","link":"https://www.vagrantup.com"}
+      ]
+  }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "school":"Fernfachhochschule Schweiz (FFHS)",
+        "degree":"Bachelor of Science in Informatics",
+        "major":"Specializations. IT- Security, Cryptology. Elective modules: Service-Oriented Architecture (SOA), Embedded Systems for Android",
+        "notes":"",
+        "range":"February 2014 - July 2017"
+    },
+    {
+        "school":"Telematikschule Bern (TSBE)",
+        "degree":"Higher technical school in Telecommunication",
+        "major":"Thesis: Linux server as access system (FlexQR)",
+        "notes":"",
+        "range":"February 2011 - July 2013"
+    },
+    {
+        "school":"Berufsfachschule Oberwallis (BFO)",
+        "degree":"Swiss Federal Certificate of Competence as Electrician",
+        "major":"",
+        "range":"July 2006 - July 2010"
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "role":"Research assistant in IT-Services",
+        "company":"Fernfachhochschule Schweiz (FFHS) | Brig, Switzerland",
+        "summary":"Developer and Application Engineer for web applications like Moodle, GitLab, Kaltura. Involved in E-Learning and E-Assessment Projects.",
+        "range":"October 2017 - Present"
+    },
+    {
+        "role":"Official in IT-Services",
+        "company":"Fernfachhochschule Schweiz (FFHS) | Brig, Switzerland",
+        "summary":"IT and software development: PHP development in Moodle.",
+        "range":"December 2016 - September 2017"
+    },
+    {
+        "role":"Electrician",
+        "company":"Electro Nova GRS GmbH | Leukerbad, Switzerland",
+        "summary":"Head of Telecommunications and apprentice support",
+        "range":"July 2016 - November 2016"
+    }
+]
