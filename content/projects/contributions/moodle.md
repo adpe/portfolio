@@ -1,5 +1,5 @@
 {
-    "title":"Passionate Moodle Developer",
+    "title":"Passionate Moodle Developer | Adrian Perez",
     "link":"https://moodle.org",
     "image":"/img/moodle.png",
     "description":"Moodle is a learning platform designed to provide educators, administrators and learners with a single robust, secure and integrated system to create personalised learning environments.",
