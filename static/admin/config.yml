@@ -18,7 +18,12 @@ collections:
       - {label: "Image", name: "image", required: false, widget: "image"}
       - {label: "Link", name: "link", required: false, widget: "string"}
       - {label: "Fact", name: "fact", required: false, widget: "string"}
-      - {label: "Weight", name: "weight", required: false, widget: "integer", default: 400}
+      - {label: "Weight", name: "weight", required: false, widget: "number", default: 400}
+      - label: Sitemap
+        name: sitemap
+        widget: list
+        fields:
+        - {label: "Priority", name: "priority", required: false, widget: "number"}
   - name: "creations"
     label: "Creations"
     folder: "content/projects/creations"
@@ -31,7 +36,7 @@ collections:
       - {label: "Image", name: "image", required: false, widget: "image"}
       - {label: "Link", name: "link", required: false, widget: "string"}
       - {label: "Fact", name: "fact", required: false, widget: "string"}
-      - {label: "Weight", name: "weight", required: false, widget: "integer", default: 400}
+      - {label: "Weight", name: "weight", required: false, widget: "number", default: 400}
   - name: "publications"
     label: "Publications"
     folder: "content/publications"
@@ -47,5 +52,10 @@ collections:
       - {label: "Image", name: "image", required: false, widget: "image"}
       - {label: "Link", name: "link", required: false, widget: "string"}
       - {label: "Fact", name: "fact", required: false, widget: "string"}
-      - {label: "Weight", name: "weight", required: false, widget: "integer", default: 400}
+      - {label: "Weight", name: "weight", required: false, widget: "number", default: 400}
+      - label: Sitemap
+        name: sitemap
+        widget: list
+        fields:
+        - {label: "Priority", name: "priority", required: false, widget: "number"}
 

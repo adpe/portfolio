@@ -4,4 +4,11 @@ sitemap:
   priority : 0.5
 weight: 20
 ---
-<p>A collection of efforts to which I contributed, but did not create. Contributing back to Open Source projects is a strong passion of mine, and requires a considerate approach to learn norms, standards and approach for each community for a successful merge!</p>
+#### Why Open-source?
+Here you can see an overview of projects I am involved in. Why I am interested in open-source projects is mainly the motivation to grow personally.
+
+But here are some other points what open-source means:
+
+- Great way to learn how to code.
+- It's fun, it should be a hobby.
+- You can give something back.
