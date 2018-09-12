@@ -1,20 +1,19 @@
-{
-    "title":"Passionate Moodle Developer",
-    "link":"https://moodle.org",
-    "image":"/img/moodle.png",
-    "description":"Moodle is a learning platform designed to provide educators, administrators and learners with a single robust, secure and integrated system to create personalised learning environments.",
-    "featured":true,
-    "tags":[
-          "Moodle",
-          "PHP",
-          "Open source",
-          "LMS",
-          "E-Learning"
-        ],
-    "fact":" 100k+ \"sites\" worldwide",
-    "weight":"999",
-    "sitemap": {"priority" : "0.8"}
-}
+---
+title: Passionate Moodle Developer
+description: Moodle is a learning platform designed to provide educators, administrators and learners with a single robust, secure and integrated system to create personalised learning environments.
+tags:
+  - Moodle
+  - PHP
+  - Open Source
+  - LMS
+  - E-Learning
+image: /img/moodle.png
+link: 'https://moodle.org'
+fact: 100k+ "sites" worldwide
+weight: '999'
+sitemap:
+  - priority: '0.'
+---
 #### What is Moodle?
 **Moodle** is a learning platform designed to provide educators, administrators and learners with a single robust, secure and integrated system to create personalised learning environments. 
 
