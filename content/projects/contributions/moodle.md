@@ -12,7 +12,7 @@ link: 'https://moodle.org'
 fact: 100k+ "sites" worldwide
 weight: '999'
 sitemap:
-  - priority: '0.'
+  - priority: '0.8'
 ---
 #### What is Moodle?
 **Moodle** is a learning platform designed to provide educators, administrators and learners with a single robust, secure and integrated system to create personalised learning environments. 
