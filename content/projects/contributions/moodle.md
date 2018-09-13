@@ -1,6 +1,7 @@
 ---
 title: Passionate Moodle Developer
 description: Moodle is a learning platform designed to provide educators, administrators and learners with a single robust, secure and integrated system to create personalised learning environments.
+featured: true
 tags:
   - Moodle
   - PHP

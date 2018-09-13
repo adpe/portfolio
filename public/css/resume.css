@@ -143,6 +143,15 @@ section.resume-section .resume-item .resume-date {
   }
 }
 
+@media (max-width: 576px) {
+    section.resume-section-sm {
+      text-align: center;
+    }
+    h1 {
+        font-size: 4rem !important;
+    }
+}
+
 .bg-primary {
   background-color: #24292e !important;
 }
