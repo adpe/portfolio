@@ -6,242 +6,52 @@
     <description>Recent content in Tags on Adrian Perez Rodriguez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Nov 2016 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://adrianperez.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Agile</title>
-      <link>https://adrianperez.me/tags/agile/</link>
-      <pubDate>Tue, 08 Nov 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://adrianperez.me/tags/agile/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Atlassian Developer Ecosystem</title>
-      <link>https://adrianperez.me/tags/atlassian-developer-ecosystem/</link>
+      <title>E Learning</title>
+      <link>https://adrianperez.me/tags/e-learning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://adrianperez.me/tags/atlassian-developer-ecosystem/</guid>
+      <guid>https://adrianperez.me/tags/e-learning/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Atlassian Ecosystem</title>
-      <link>https://adrianperez.me/tags/atlassian-ecosystem/</link>
-      <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
-      
-      <guid>https://adrianperez.me/tags/atlassian-ecosystem/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bamboo</title>
-      <link>https://adrianperez.me/tags/bamboo/</link>
+      <title>Lms</title>
+      <link>https://adrianperez.me/tags/lms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://adrianperez.me/tags/bamboo/</guid>
+      <guid>https://adrianperez.me/tags/lms/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Bash/Shell</title>
-      <link>https://adrianperez.me/tags/bash-shell/</link>
-      <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
-      
-      <guid>https://adrianperez.me/tags/bash-shell/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bitbucket</title>
-      <link>https://adrianperez.me/tags/bitbucket/</link>
+      <title>Moodle</title>
+      <link>https://adrianperez.me/tags/moodle/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://adrianperez.me/tags/bitbucket/</guid>
+      <guid>https://adrianperez.me/tags/moodle/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Bosh</title>
-      <link>https://adrianperez.me/tags/bosh/</link>
-      <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
-      
-      <guid>https://adrianperez.me/tags/bosh/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ci/Cd Pipelines</title>
-      <link>https://adrianperez.me/tags/ci-cd-pipelines/</link>
-      <pubDate>Tue, 08 Nov 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://adrianperez.me/tags/ci-cd-pipelines/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Confluence</title>
-      <link>https://adrianperez.me/tags/confluence/</link>
+      <title>Open Source</title>
+      <link>https://adrianperez.me/tags/open-source/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://adrianperez.me/tags/confluence/</guid>
+      <guid>https://adrianperez.me/tags/open-source/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Continuous Delivery</title>
-      <link>https://adrianperez.me/tags/continuous-delivery/</link>
-      <pubDate>Tue, 08 Nov 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://adrianperez.me/tags/continuous-delivery/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Continuous Integration</title>
-      <link>https://adrianperez.me/tags/continuous-integration/</link>
-      <pubDate>Tue, 08 Nov 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://adrianperez.me/tags/continuous-integration/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Culture</title>
-      <link>https://adrianperez.me/tags/culture/</link>
-      <pubDate>Tue, 08 Nov 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://adrianperez.me/tags/culture/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Devops</title>
-      <link>https://adrianperez.me/tags/devops/</link>
-      <pubDate>Tue, 08 Nov 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://adrianperez.me/tags/devops/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Docker</title>
-      <link>https://adrianperez.me/tags/docker/</link>
+      <title>Php</title>
+      <link>https://adrianperez.me/tags/php/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://adrianperez.me/tags/docker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Java</title>
-      <link>https://adrianperez.me/tags/java/</link>
-      <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
-      
-      <guid>https://adrianperez.me/tags/java/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Javascript</title>
-      <link>https://adrianperez.me/tags/javascript/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://adrianperez.me/tags/javascript/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jira</title>
-      <link>https://adrianperez.me/tags/jira/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://adrianperez.me/tags/jira/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jquery</title>
-      <link>https://adrianperez.me/tags/jquery/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://adrianperez.me/tags/jquery/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Json</title>
-      <link>https://adrianperez.me/tags/json/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://adrianperez.me/tags/json/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Maven</title>
-      <link>https://adrianperez.me/tags/maven/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://adrianperez.me/tags/maven/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Monit</title>
-      <link>https://adrianperez.me/tags/monit/</link>
-      <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
-      
-      <guid>https://adrianperez.me/tags/monit/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Node.js</title>
-      <link>https://adrianperez.me/tags/node.js/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://adrianperez.me/tags/node.js/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>https://adrianperez.me/tags/python/</link>
-      <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
-      
-      <guid>https://adrianperez.me/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rest Apis</title>
-      <link>https://adrianperez.me/tags/rest-apis/</link>
-      <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
-      
-      <guid>https://adrianperez.me/tags/rest-apis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Spring</title>
-      <link>https://adrianperez.me/tags/spring/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://adrianperez.me/tags/spring/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Xml/Xslt</title>
-      <link>https://adrianperez.me/tags/xml-xslt/</link>
-      <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
-      
-      <guid>https://adrianperez.me/tags/xml-xslt/</guid>
+      <guid>https://adrianperez.me/tags/php/</guid>
       <description></description>
     </item>
     

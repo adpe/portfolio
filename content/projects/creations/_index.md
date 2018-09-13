@@ -4,4 +4,4 @@ sitemap:
   priority : 0.5
 weight: 10
 ---
-<p>A collection of projects authored by Eddie, and likely shared out with the community as an open source project.</p>
+This is an overview of private projects I have created and shared with the community.
