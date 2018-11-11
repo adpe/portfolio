@@ -7,11 +7,12 @@ theme = "resume"
     firstName = "Adrian"
     lastName = "Perez"
     address = "Brig, Switzerland"
-    contactNote = "Dev Tools Engineer"
+    contactNote = "Digital Native and Webenthusiast"
     profileImage = "img/me.jpg"
     email = "p.adrian@gmx.ch"
     description = "I am a web developer at Fernfachhochschule Schweiz currently living in Brig, Switzerland. My interests range from programming to travel. I am also interested in DIY, sports, and technology."
     favicon = "favicon.ico"
+    showQr = false
     showSkills = true
     showProjects = false
     showOpenSource = true
@@ -25,6 +26,11 @@ theme = "resume"
     icon = "linkedin"
 
 [[params.handles]]
+    name = "Xing"
+    link = "https://www.xing.com/profile/Adrian_PerezRodriguez2"
+    icon = "xing"
+
+[[params.handles]]
     name = "GitHub"
     link = "https://github.com/adpe/"
     icon = "github"
@@ -33,3 +39,14 @@ theme = "resume"
     name = "Stack Overflow"
     link = "https://stackoverflow.com/users/story/7262345"
     icon = "stack-overflow"
+
+[[params.handles]]
+    name = "Telegram"
+    link = "https://t.me/adpe_90"
+    icon = "telegram"
+
+[params.google.analytics]
+    trackerID = "UA-129035485-1"
+
+[outputs] #only required for search
+    home = ["HTML", "JSON"]
