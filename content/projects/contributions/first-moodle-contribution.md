@@ -7,7 +7,7 @@ description: >-
   developers that have ever contributed to this gorgeous project.
 
 
-  Me, for my part have only done yet one contribution. My contributions are
+  Me, for my part have only done yet one contribution. My contributions can be
   found under this
   [link](https://moodle.org/dev/gitcommits.php?version=x.x.x&userid=2177440&merges=0).
   But I'm active reporting bugs and try to deliver something helpful.
