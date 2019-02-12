@@ -1,7 +1,7 @@
 [
     {
         "id":"1",
-        "grouping":"Platform Development & Administration",
+        "grouping":"Development & Administration",
         "skills":[
             {"name":"GitHub","level":"70%"},
             {"name":"GitLab","level":"55%"},
