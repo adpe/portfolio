@@ -14,6 +14,7 @@ collections:
     fields:
       - {label: "Title", name: "title", required: true, widget: "string"}
       - {label: "Description", name: "description", required: true, widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", required: false, widget: "list"}
       - {label: "Image", name: "image", required: false, widget: "image"}
       - {label: "Link", name: "link", required: false, widget: "string"}
