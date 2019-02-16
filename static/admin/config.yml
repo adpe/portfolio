@@ -15,6 +15,7 @@ collections:
       - {label: "Title", name: "title", required: true, widget: "string"}
       - {label: "Description", name: "description", required: true, widget: "text"}
       - {label: "Body", name: "body", required: true, widget: "markdown"}
+      - {label: "Featured", name: "featured", required: false, widget: "boolean", default: true}
       - {label: "Tags", name: "tags", required: true, widget: "list"}
       - {label: "Image", name: "image", required: true, widget: "image"}
       - {label: "Link", name: "link", required: false, widget: "string"}
@@ -34,6 +35,7 @@ collections:
       - {label: "Title", name: "title", required: true, widget: "string"}
       - {label: "Description", name: "description", required: true, widget: "text"}
       - {label: "Body", name: "body", required: true, widget: "markdown"}
+      - {label: "Featured", name: "featured", required: false, widget: "boolean", default: true}
       - {label: "Tags", name: "tags", required: true, widget: "list"}
       - {label: "Image", name: "image", required: true, widget: "image"}
       - {label: "Link", name: "link", required: false, widget: "string"}

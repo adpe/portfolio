@@ -3,6 +3,7 @@ title: First Moodle contribution
 description: Moodle lives from contributions, but the main core is mainly maintained by
   Moodle HQ. For all interested people, on this page (https://moodle.org/dev/contributions.php?version=x.x.x) you can see all
   developers that have ever contributed to this gorgeous project.
+featured: true
 tags:
   - Moodle
   - PHP
