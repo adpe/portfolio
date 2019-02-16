@@ -13,10 +13,10 @@ collections:
     slug: ""
     fields:
       - {label: "Title", name: "title", required: true, widget: "string"}
-      - {label: "Description", name: "description", required: true, widget: "markdown"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Tags", name: "tags", required: false, widget: "list"}
-      - {label: "Image", name: "image", required: false, widget: "image"}
+      - {label: "Description", name: "description", required: true, widget: "text"}
+      - {label: "Body", name: "body", required: true, widget: "markdown"}
+      - {label: "Tags", name: "tags", required: true, widget: "list"}
+      - {label: "Image", name: "image", required: true, widget: "image"}
       - {label: "Link", name: "link", required: false, widget: "string"}
       - {label: "Fact", name: "fact", required: false, widget: "string"}
       - {label: "Weight", name: "weight", required: false, widget: "number", default: 400}
@@ -32,9 +32,10 @@ collections:
     slug: ""
     fields:
       - {label: "Title", name: "title", required: true, widget: "string"}
-      - {label: "Description", name: "description", required: true, widget: "markdown"}
-      - {label: "Tags", name: "tags", required: false, widget: "list"}
-      - {label: "Image", name: "image", required: false, widget: "image"}
+      - {label: "Description", name: "description", required: true, widget: "text"}
+      - {label: "Body", name: "body", required: true, widget: "markdown"}
+      - {label: "Tags", name: "tags", required: true, widget: "list"}
+      - {label: "Image", name: "image", required: true, widget: "image"}
       - {label: "Link", name: "link", required: false, widget: "string"}
       - {label: "Fact", name: "fact", required: false, widget: "string"}
       - {label: "Weight", name: "weight", required: false, widget: "number", default: 400}
@@ -48,9 +49,10 @@ collections:
       - {label: "Publish Date", name: "date", required: true, widget: "datetime"}
       - {label: "Publish Type", name: "pubtype", required: false, widget: "string"}
       - {label: "Featured", name: "featured", required: false, widget: "boolean", default: false}
-      - {label: "Description", name: "description", required: true, widget: "markdown"}
-      - {label: "Tags", name: "tags", required: false, widget: "list"}
-      - {label: "Image", name: "image", required: false, widget: "image"}
+      - {label: "Description", name: "description", required: true, widget: "text"}
+      - {label: "Body", name: "body", required: true, widget: "markdown"}
+      - {label: "Tags", name: "tags", required: true, widget: "list"}
+      - {label: "Image", name: "image", required: true, widget: "image"}
       - {label: "Link", name: "link", required: false, widget: "string"}
       - {label: "Fact", name: "fact", required: false, widget: "string"}
       - {label: "Weight", name: "weight", required: false, widget: "number", default: 400}
