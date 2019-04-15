@@ -48,5 +48,8 @@ theme = "resume"
 [params.google.analytics]
     trackerID = "UA-129035485-1"
 
+[params.google.tagmanager]
+    trackerID = "GTM-TRSMZDH"
+
 [outputs] #only required for search
     home = ["HTML", "JSON"]
