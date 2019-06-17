@@ -44,6 +44,11 @@ theme = "resume"
     name = "Telegram"
     link = "https://t.me/adpe_90"
     icon = "telegram"
+	
+[[params.handles]]
+	name = "Polarsteps"
+	link = "https://www.polarsteps.com/AdrianPerez"
+	icon = "icomoon-polarsteps"
 
 [params.google.analytics]
     trackerID = "UA-129035485-1"
