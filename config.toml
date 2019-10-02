@@ -42,7 +42,7 @@ theme = "resume"
 
 [[params.handles]]
     name = "Telegram"
-    link = "https://t.me/adpe_90"
+    link = "https://t.me/adpe90"
     icon = "telegram"
 	
 [[params.handles]]
