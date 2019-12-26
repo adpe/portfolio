@@ -13,7 +13,9 @@
     "gulp-rename": "^1.4.0"
   },
   "main": "gulpfile.js",
-  "dependencies": {},
+  "dependencies": {
+    "github-calendar": "^1.3.4"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/adpe/portfolio.git"
