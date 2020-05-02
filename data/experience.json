@@ -1,20 +1,42 @@
 [
     {
+        "role":"Application developer",
+        "company":"Fernfachhochschule Schweiz (FFHS) | Brig, Switzerland",
+        "summarystart":"Developer and Application Engineer for web applications like:",
+        "summarylist":[
+            {"name":"Moodle", "url": "https://moodle.org/user/profile.php?id=2177440"},
+            {"name":"GitLab", "url": "https://gitlab.com"},
+            {"name":"Kaltura", "url": "https://kaltura.com"}
+        ],
+        "summaryend":"Involved in E-Learning and E-Assessment projects.",
+        "range":"February 2020 - Present",
+        "notes":"Remark: Only the job title was renamed."
+    },
+    {
         "role":"Research assistant in IT-Services",
         "company":"Fernfachhochschule Schweiz (FFHS) | Brig, Switzerland",
-        "summary":"Developer and Application Engineer for web applications like Moodle, GitLab, Kaltura. Involved in E-Learning and E-Assessment Projects.",
-        "range":"October 2017 - Present"
+        "summarystart":"Developer and Application Engineer for web applications like Moodle, GitLab, Kaltura. Involved in E-Learning and E-Assessment Projects.",
+        "summarylist":[],
+        "summaryend":"",
+        "range":"October 2017 - February 2020",
+        "notes":""
     },
     {
         "role":"Official in IT-Services",
         "company":"Fernfachhochschule Schweiz (FFHS) | Brig, Switzerland",
-        "summary":"IT and software development: PHP development in Moodle.",
-        "range":"December 2016 - September 2017"
+        "summarystart":"IT and software development: PHP development in Moodle.",
+        "summarylist":[],
+        "summaryend":"",
+        "range":"December 2016 - September 2017",
+        "notes":""
     },
     {
         "role":"Electrician",
         "company":"Electro Nova GRS GmbH | Leukerbad, Switzerland",
-        "summary":"Head of Telecommunications and apprentice support",
-        "range":"July 2016 - November 2016"
+        "summarystart":"Head of Telecommunications and apprentice support",
+        "summarylist":[],
+        "summaryend":"",
+        "range":"July 2016 - November 2016",
+        "notes":""
     }
 ]
