@@ -15,7 +15,7 @@ tags:
 image: /img/moodle-plugins.jpg
 link: https://moodle.org/plugins
 fact: +1500 plugins
-weight: 400
+weight: 200
 ---
 I'm one of these developers and I want to let you know a bit more about that.
 
