@@ -1,21 +1,36 @@
 [
     {
+        "degree":"Certificate of Advanced Studies in Blockchain",
         "school":"Fernfachhochschule Schweiz (FFHS)",
-        "degree":"Bachelor of Science in Informatics",
-        "major":"Specializations. IT- Security, Cryptology. Elective modules: Service-Oriented Architecture (SOA), Embedded Systems for Android",
+        "major":"Transfer work: Certification and verification of the authenticity of university diplomas",
         "notes":"",
         "range":"February 2014 - July 2017"
     },
     {
+        "degree":"Bachelor of Science SUPSI in Informatics",
+        "school":"Fernfachhochschule Schweiz (FFHS)",
+        "major":"Bachelor thesis: Evaluation and implementation of a communication solution in Moodle (LMS)",
+        "minor": [
+            "Specializations. IT- Security, Cryptology",
+            "Electives: Service-Oriented Architecture (SOA), Embedded Systems for Android"
+        ],
+        "notes":"",
+        "range":"February 2014 - July 2017"
+    },
+    {
+        "degree":"Technician in Telecommunications HF (Higher technical school)",
         "school":"Telematikschule Bern (TSBE)",
-        "degree":"Higher technical school in Telecommunication",
-        "major":"Thesis: Linux server as access system (FlexQR)",
+        "major":"Diploma thesis: Development and programming of an access system using a booking portal:",
+        "minor": [
+            "Implementation of the prototype with a single board computer (Cubieboard), e.g. Linux-OS (Debian)",
+            "Technologies used: Front-end with HTML/CSS/JS, back-end solution PHP, web server Apache, QR reader (scanner) implemented with a USB camera, data stored centrally on a database (MySQL)"
+        ],
         "notes":"",
         "range":"February 2011 - July 2013"
     },
     {
+        "degree":"Electrician EFZ (Swiss Federal Certificate of Competence)",
         "school":"Berufsfachschule Oberwallis (BFO)",
-        "degree":"Swiss Federal Certificate of Competence as Electrician",
         "major":"",
         "range":"July 2006 - July 2010"
     }
