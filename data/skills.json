@@ -5,21 +5,26 @@
         "skills":[
             {"name":"GitHub","level":"85%"},
             {"name":"GitLab","level":"80%"},
-            {"name":"Moodle","level":"80%"},
-            {"name":"Apache","level":"75%"},
-            {"name":"Nginx","level":"25%"},
-            {"name":"MariaDB","level":"60%","old":"true"},
-            {"name":"Netlify","level":"55%","old":"true"},
-            {"name":"WordPress","level":"60%"},
-            {"name":"TYPO3","level":"40%","old":"true"},
+            {"name":"Moodle","level":"95%"},
+            {"name":"Apache","level":"80%"},
+            {"name":"Nginx","level":"30%"},
+            {"name":"MariaDB","level":"75%","old":"true"},
+            {"name":"Netlify","level":"60%","old":"true"},
+            {"name":"WordPress","level":"75%"},
+            {"name":"TYPO3","level":"65%","old":"true"},
             {"name":"Bootstrap","level":"90%"},
-            {"name":"Laravel","level":"35%"},
-            {"name":"CodeIgniter","level":"45%"},
-            {"name":"Composer","level":"70%","old":"true"},
+            {"name":"Laravel","level":"80%"},
+            {"name":"CodeIgniter","level":"60%"},
+            {"name":"Composer","level":"85%","old":"true"},
             {"name":"Hugo","level":"30%","old":"true"},
             {"name":"Grunt","level":"75%"},
             {"name":"Gulp","level":"25%"},
-            {"name":"Travis","level":"65%"}
+            {"name":"Travis","level":"65%"},
+            {"name":"Tailwind CSS","level":"70%","old":"true"},
+            {"name":"AngularJS","level":"35%"},
+            {"name":"jQuery","level":"80%"},
+            {"name":"VueJS","level":"35%"},
+            {"name":"Flutter","level":"15%","old":"true"}
         ]
     },{
         "id":"2",
@@ -28,8 +33,6 @@
             {"name":"HTML5","level":"95%"},
             {"name":"CSS3","level":"90%"},
             {"name":"JavaScript","level":"85%"},
-            {"name":"jQuery","level":"80%"},
-            {"name":"VueJS","level":"35%"},
             {"name":"git","level":"90%"},
             {"name":"PHP","level":"85%"},
             {"name":"MySQL","level":"75%"},
@@ -38,19 +41,18 @@
             {"name":"Python","level":"35%"},
             {"name":"Shell","level":"75%","old":"true"},
             {"name":"Behat","level":"35%","old":"true"},
-            {"name":"Go","level":"25%"},
-            {"name":"Flutter","level":"15%","old":"true"}
+            {"name":"Go","level":"25%"}
         ]
     },{
         "id":"3",
         "grouping":"Operating Systems & Tools",
         "skills":[
             {"name":"CentOS","level":"95%","old": "true"},
-            {"name":"Debian","level":"85%"},
-            {"name":"Ubuntu","level":"70%"},
-            {"name":"Android","level":"55%"},
+            {"name":"Debian","level":"90%"},
+            {"name":"Ubuntu","level":"85%"},
+            {"name":"Android","level":"65%"},
             {"name":"Windows","level":"85%","old":"true"},
-            {"name":"MacOS","level":"65%","old":"true"},
+            {"name":"MacOS","level":"60%","old":"true"},
             {"name":"vim","level":"80%"},
             {"name":"PhpStorm","level":"90%"}
         ]
@@ -63,7 +65,7 @@
             {"name":"Firewalls","level":"75%","old":"true"},
             {"name":"Microservices","level":"15%","old":"true"},
             {"name":"Docker","link":"https://docker.com","level":"65%"},
-            {"name":"Vagrant","link":"https://www.vagrantup.com","level":"90%"}
+            {"name":"Vagrant","link":"https://www.vagrantup.com","level":"85%"}
         ]
     }
 ]
