@@ -1,42 +1,38 @@
 [
     {
-        "role":"Application developer",
+        "role":"Application Developer",
         "company":"Fernfachhochschule Schweiz (FFHS) | Brig, Switzerland",
-        "summarystart":"Developer and Application Engineer for web applications like:",
-        "summarylist":[
-            {"name":"Moodle", "url": "https://moodle.org/user/profile.php?id=2177440"},
-            {"name":"GitLab", "url": "https://gitlab.com"},
-            {"name":"Kaltura", "url": "https://kaltura.com"}
-        ],
-        "summaryend":"Involved in E-Learning and E-Assessment projects.",
+        "major": "Full-stack and backend developer focuses on web applications such as the learning platform (Moodle, LMS), online video platform (Kaltura, OVP) and version control platform (GitLab, VCS)",
+        "minor": "Co-lead the board that shapes the evolution of the learning platform",
+        "summarystart":"Main responsible for IT Services for the online and home-based assessment",
+        "summarylist":[],
+        "summaryend":"",
         "range":"February 2020 - Present",
-        "notes":"Remark: Only the job title was renamed."
+        "notes":""
     },
     {
-        "role":"Research assistant in IT-Services",
+        "role":"Research assistant",
         "company":"Fernfachhochschule Schweiz (FFHS) | Brig, Switzerland",
+        "major": "Front-end and back-end developer focuses on web applications such as the learning\nplatform (Moodle, LMS) and the corporate website (phpComasy, CMS)",
+        "minor": "Monitoring the security and operation of applications, including OS updates, application\nbackups and monitoring",
         "summarystart":"Developer and Application Engineer for web applications like Moodle, GitLab, Kaltura. Involved in E-Learning and E-Assessment Projects.",
         "summarylist":[],
         "summaryend":"",
-        "range":"October 2017 - February 2020",
+        "range":"October 2016 - February 2020",
         "notes":""
     },
     {
-        "role":"Official in IT-Services",
-        "company":"Fernfachhochschule Schweiz (FFHS) | Brig, Switzerland",
-        "summarystart":"IT and software development: PHP development in Moodle.",
-        "summarylist":[],
-        "summaryend":"",
-        "range":"December 2016 - September 2017",
-        "notes":""
-    },
-    {
-        "role":"Electrician",
+        "role":"Telecommunication technician/Electrician",
         "company":"Electro Nova GRS GmbH | Leukerbad, Switzerland",
-        "summarystart":"Head of Telecommunications and apprentice support",
-        "summarylist":[],
-        "summaryend":"",
-        "range":"July 2016 - November 2016",
+        "major": "Creation of high and low voltage installations (new and reconstruction)",
+        "minor": "Carrying out repair and service work for customers",
+        "summarystart":"Head of telecommunications (TV, Internet, multimedia, network):",
+        "summarylist": [
+            "Creation of HF and FTTH/FTTB installations, including modernization of cable TV\nnetwork in Leukerbad and (pilot) fiber optic network in Inden",
+            "Planning and construction of network installations (LAN, WLAN), e.g. in hotels,\nrestaurants, businesses, single and multi-family houses and HES-SO Valais Campus in\nLeukerbad"
+        ],
+        "summaryend":"Supervision and training of apprentices",
+        "range":"July 2006 - November 2016",
         "notes":""
     }
 ]
