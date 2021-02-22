@@ -16,7 +16,7 @@ tags:
   - Plugin
 image: /img/moodle-and-rocketchat.png
 link: https://moodle.adrianperez.me
-weight: 200
+weight: 100
 ---
 The main work was already done by another GitHub user in Mid of 2016. Later I've forked this [local_rocketchat](https://github.com/adpe/moodle-local_rocketchat) repository and worked on it. To complete the integration I've also created a [block_rocketchat](https://github.com/adpe/moodle-block_rocketchat) which can be added to a Moodle course.
 
