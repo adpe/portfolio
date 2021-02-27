@@ -37,7 +37,7 @@ theme = "resume"
 
 [[params.handles]]
     name = "Stack Overflow"
-    link = "https://stackoverflow.com/users/story/7262345"
+    link = "https://stackoverflow.com/story/adpe"
     icon = "stack-overflow"
 
 [[params.handles]]
