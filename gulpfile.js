@@ -4,14 +4,14 @@ const rename = require('gulp-rename');
 const postcss = require('gulp-postcss');
 const autoprefixer = require('autoprefixer');
 
-srcDir = 'themes/resume/static/css/*.css'
-destDir = 'themes/resume/static/css'
-
 gulp.task('default', function () {
-    return gulp.src(srcDir)
+    return gulp.src([
+            'themes/resume/static/css/*.css',
+            '!themes/resume/static/css/*min.css'
+        ])
         .pipe(postcss([autoprefixer, cssnano]))
         .pipe(rename({
             suffix: '.min'
         }))
-        .pipe(gulp.dest(destDir));
+        .pipe(gulp.dest('themes/resume/static/css'));
 });
