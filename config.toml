@@ -6,11 +6,11 @@ theme = "resume"
 [params]
     firstName = "Adrian"
     lastName = "Perez"
-    address = "Brig, Switzerland"
+    address = "Meggen, Switzerland"
     contactNote = "Digital Native and Webenthusiast"
     profileImage = "img/me.jpg"
     email = "me@adrianperez.me"
-    description = "I am a web developer at Fernfachhochschule Schweiz currently living in Brig, Switzerland. My interests range from programming to travel. I am also interested in DIY, sports, and technology."
+    description = "I am a web developer at Fernfachhochschule Schweiz currently living in Meggen, Switzerland. My interests range from programming to travel. I am also interested in DIY, sports, and technology."
     favicon = "favicon.ico"
     showQr = false
     showSkills = true
