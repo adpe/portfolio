@@ -22,12 +22,12 @@ theme = "resume"
 
 [[params.handles]]
     name = "LinkedIn"
-    link = "https://www.linkedin.com/in/perez-r-adrian/"
+    link = "https://www.linkedin.com/in/adpe"
     icon = "linkedin"
 
 [[params.handles]]
     name = "Xing"
-    link = "https://www.xing.com/profile/Adrian_PerezRodriguez2"
+    link = "https://www.xing.com/profile/Adrian_Perez24/cv"
     icon = "xing"
 
 [[params.handles]]
