@@ -44,6 +44,11 @@ theme = "resume"
     name = "Telegram"
     link = "https://t.me/adpe90"
     icon = "telegram"
+
+[[params.handles]]
+	name = "Signal"
+	link = "https://signal.group/#CjQKIPTT3JKSxGiXBnhneQDkZl1AWSLtKZrtKeRPol2UnNZyEhA2zEqeG3rdV8iaLwtKkr4U"
+	icon = "signalapp"
 	
 [[params.handles]]
 	name = "Polarsteps"
