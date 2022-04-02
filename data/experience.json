@@ -1,5 +1,16 @@
 [
     {
+        "role":"CRM Developer",
+        "company":"AMAG Corporate Services AG | Cham, Switzerland",
+        "major": "",
+        "minor": "",
+        "summarystart":"",
+        "summarylist":[],
+        "summaryend":"",
+        "range":"April 2022 - Today",
+        "notes":""
+    },
+    {
         "role":"Application Developer",
         "company":"Fernfachhochschule Schweiz (FFHS) | Brig, Switzerland",
         "major": "Full-stack and backend developer focuses on web applications such as the learning platform (Moodle, LMS), online video platform (Kaltura, OVP) and version control platform (GitLab, VCS)",
@@ -7,18 +18,29 @@
         "summarystart":"Main responsible for IT Services for the online and home-based assessment",
         "summarylist":[],
         "summaryend":"",
-        "range":"February 2020 - Today",
+        "range":"February 2020 - March 2022",
         "notes":""
     },
     {
-        "role":"Research assistant",
+        "role":"Research Assistant",
         "company":"Fernfachhochschule Schweiz (FFHS) | Brig, Switzerland",
         "major": "Front-end and back-end developer focuses on web applications such as the learning\nplatform (Moodle, LMS) and the corporate website (phpComasy, CMS)",
         "minor": "Monitoring the security and operation of applications, including OS updates, application\nbackups and monitoring",
         "summarystart":"Developer and Application Engineer for web applications like Moodle, GitLab, Kaltura. Involved in E-Learning and E-Assessment Projects.",
         "summarylist":[],
         "summaryend":"",
-        "range":"October 2016 - February 2020",
+        "range":"October 2017 - January 2020",
+        "notes":""
+    },
+	{
+        "role":"Administrative Staff",
+        "company":"Fernfachhochschule Schweiz (FFHS) | Brig, Switzerland",
+        "major": "Front-end and back-end developer focuses on web applications such as the learning platform (Moodle, LMS) and the corporate website (phpComasy, CMS)",
+        "minor": "",
+        "summarystart":"",
+        "summarylist":[],
+        "summaryend":"",
+        "range":"December 2016 - September 2017",
         "notes":""
     },
     {
