@@ -26,6 +26,10 @@
     "path-parse": "^1.0.7",
     "yargs-parser": "^13.1.2"
   },
+  "overrides": {
+    "glob-parent": "^6.0.2",
+    "semver": "^7.5.3"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/adpe/portfolio.git"
