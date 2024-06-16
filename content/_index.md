@@ -9,4 +9,4 @@ outputs:
 - rss
 - json
 ---
-<p class="mb-5">I am a CRM developer in the Web Development Services department at AMAG Corporate Services AG, currently live in Meggen, Switzerland. My interests range from programming to travel. I am also interested in DIY, sports, and technology.</p>
+<p class="mb-5">I am a CRM developer in the Web Development Services department at AMAG Corporate Services AG, currently live in Fürigen, Switzerland. My interests range from programming to travel. I am also interested in DIY, sports, and technology.</p>

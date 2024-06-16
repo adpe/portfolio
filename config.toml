@@ -6,11 +6,11 @@ theme = "resume"
 [params]
     firstName = "Adrian"
     lastName = "Perez"
-    address = "Meggen, Switzerland"
+    address = "Fürigen, Switzerland"
     contactNote = "Digital Native and Webenthusiast"
     profileImage = "img/me.jpg"
     email = "hi@adrianperez.me"
-    description = "I am a CRM developer in the Web Development Services department at AMAG Corporate Services AG, currently live in Meggen, Switzerland. My interests range from programming to travel. I am also interested in DIY, sports, and technology."
+    description = "I am a CRM developer in the Web Development Services department at AMAG Corporate Services AG, currently live in Fürigen, Switzerland. My interests range from programming to travel. I am also interested in DIY, sports, and technology."
     favicon = "favicon.ico"
     showQr = false
     showSkills = true
