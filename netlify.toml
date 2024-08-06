@@ -1,8 +1,4 @@
 [[headers]]
-  for = "/fonts/*"
-  [headers.values]
-    Access-Control-Allow-Origin = '''
-    https://adrianperez.me,
-    https://adrianperez.swiss,
-    https://perez.swiss'''
-    Content-Type = "font/ttf"
+  for = "/*"
+    [headers.values]
+    Access-Control-Allow-Origin = "*"
