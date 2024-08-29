@@ -51,9 +51,9 @@ theme = "resume"
 	icon = "signalapp"
 	
 [[params.handles]]
-	name = "Polarsteps"
-	link = "https://www.polarsteps.com/AdrianPerez"
-	icon = "icomoon-polarsteps"
+	name = "FindPenguins"
+	link = "https://findpenguins.com/adrianperez"
+	icon = "icomoon-findpenguins"
 
 [params.google.analytics]
     trackerID = "UA-129035485-1"
