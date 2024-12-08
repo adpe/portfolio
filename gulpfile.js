@@ -13,11 +13,11 @@ function isNotMinified(file) {
 
 gulp.task('minify-css', function () {
     return gulp.src([
-            'themes/resume/static/css/libs/bootstrap.min.css',
-            'themes/resume/static/css/libs/fork-awesome.min.css',
-            'themes/resume/static/css/libs/icomoon.min.css',
-            'themes/resume/static/css/libs/simple-line-icons.min.css',
-            'themes/resume/static/css/*.css',
+            'themes/resume/src/css/libs/bootstrap.min.css',
+            'themes/resume/src/css/libs/fork-awesome.min.css',
+            'themes/resume/src/css/libs/icomoon.min.css',
+            'themes/resume/src/css/libs/simple-line-icons.min.css',
+            'themes/resume/src/css/*.css',
         ])
         .pipe(sourcemaps.init())
         .pipe(gulpIf(isNotMinified, postcss([autoprefixer, cssnano])))
@@ -28,10 +28,10 @@ gulp.task('minify-css', function () {
 
 gulp.task('minify-js', function () {
     return gulp.src([
-            'themes/resume/static/js/libs/jquery.min.js',
-            'themes/resume/static/js/libs/bootstrap.bundle.min.js',
-            'themes/resume/static/js/libs/jquery.easing.min.js',
-            'themes/resume/static/js/*.js',
+            'themes/resume/src/js/libs/jquery.min.js',
+            'themes/resume/src/js/libs/bootstrap.bundle.min.js',
+            'themes/resume/src/js/libs/jquery.easing.min.js',
+            'themes/resume/src/js/*.js',
         ])
         .pipe(sourcemaps.init())
         .pipe(gulpIf(isNotMinified, uglify()))
