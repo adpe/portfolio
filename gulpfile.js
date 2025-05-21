@@ -13,7 +13,7 @@ function isNotMinified(file) {
 
 gulp.task('minify-css', function () {
     return gulp.src([
-            'themes/resume/src/css/libs/bootstrap.min.css',
+            'node_modules/bootstrap/dist/css/bootstrap.min.css',
             'themes/resume/src/css/libs/fork-awesome.min.css',
             'themes/resume/src/css/libs/icomoon.min.css',
             'themes/resume/src/css/libs/simple-line-icons.min.css',
@@ -28,9 +28,7 @@ gulp.task('minify-css', function () {
 
 gulp.task('minify-js', function () {
     return gulp.src([
-            'themes/resume/src/js/libs/jquery.min.js',
-            'themes/resume/src/js/libs/bootstrap.bundle.min.js',
-            'themes/resume/src/js/libs/jquery.easing.min.js',
+            'node_modules/bootstrap/dist/js/bootstrap.bundle.min.js',
             'themes/resume/src/js/*.js',
         ])
         .pipe(sourcemaps.init())
