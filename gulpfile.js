@@ -7,10 +7,22 @@ const concat = require('gulp-concat');
 const gulpIf = require('gulp-if');
 const uglify = require('gulp-uglify');
 const purgecss = require('gulp-purgecss')
+const prettier = require('gulp-prettier');
 
 function isNotMinified(file) {
     return !file.path.endsWith('.min.css') && !file.path.endsWith('.min.js');
 }
+
+gulp.task('prettier', function () {
+    return gulp.src([
+            'themes/resume/src/css/*.css',
+            'themes/resume/src/js/*.js',
+        ])
+        .pipe(prettier({ singleQuote: true }))
+        .pipe(gulp.dest(function (file) {
+            return file.base;
+        }));
+});
 
 gulp.task('minify-css', function () {
     return gulp.src([
@@ -56,4 +68,4 @@ gulp.task('purgecss', () => {
         .pipe(gulp.dest('themes/resume/src/css'))
 });
 
-gulp.task('default', gulp.parallel('purgecss', 'minify-css', 'minify-js'));
+gulp.task('default', gulp.series('purgecss', 'prettier', gulp.parallel('minify-css', 'minify-js')));
