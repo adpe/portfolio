@@ -6,6 +6,7 @@ const sourcemaps = require('gulp-sourcemaps');
 const concat = require('gulp-concat');
 const gulpIf = require('gulp-if');
 const uglify = require('gulp-uglify');
+const purgecss = require('gulp-purgecss')
 
 function isNotMinified(file) {
     return !file.path.endsWith('.min.css') && !file.path.endsWith('.min.js');
@@ -38,4 +39,21 @@ gulp.task('minify-js', function () {
         .pipe(gulp.dest('themes/resume/static/js'));
 });
 
-gulp.task('default', gulp.parallel('minify-css', 'minify-js'));
+gulp.task('purgecss', () => {
+    return gulp.src('themes/resume/src/css/*.css')
+        .pipe(purgecss({
+            content: ['themes/resume/layouts/**/*.html'],
+            safelist: [
+                /^github$/,                     // .github
+                /^linkedin$/,                   // .linkedin
+                /^stack-overflow$/,             // .stack-overflow
+                /^xing$/,                       // .xing
+                /^telegram$/,                   // .telegram
+                /^signalapp$/,                  // .signalapp
+                /^icomoon-findpenguins$/,
+            ]
+        }))
+        .pipe(gulp.dest('themes/resume/src/css'))
+});
+
+gulp.task('default', gulp.parallel('purgecss', 'minify-css', 'minify-js'));
