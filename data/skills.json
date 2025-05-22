@@ -9,7 +9,6 @@
             {"name":"Apache","level":"Advanced"},
             {"name":"Nginx","level":"Advanced"},
             {"name":"MariaDB","level":"Advanced"},
-            {"name":"Netlify","level":"Intermediate"},
             {"name":"WordPress","level":"Advanced"},
             {"name":"TYPO3","level":"Intermediate"},
             {"name":"Bootstrap","level":"Expert"},
@@ -22,9 +21,19 @@
             {"name":"Travis","level":"Intermediate"},
             {"name":"Tailwind CSS","level":"Intermediate"},
             {"name":"AngularJS","level":"Beginner"},
-            {"name":"jQuery","level":"Advanced"},
-            {"name":"VueJS","level":"Beginner"},
-            {"name":"Flutter","level":"Beginner"}
+            {"name":"Vue.js","level":"Beginner"},
+            {"name":"Flutter","level":"Beginner"},
+            {"name":"Maven","level":"Advanced"},
+            {"name":"Node.js","level":"Advanced"},
+            {"name":"pnpm","level":"Intermediate"},
+            {"name":"Sass","level":"Intermediate"},
+            {"name":"Webpack","level":"Intermediate"},
+            {"name":"Selenium","level":"Advanced"},
+            {"name":"SonarQube","level":"Intermediate"},
+            {"name":"Spring","level":"Intermediate"},
+            {"name":"SQLite","level":"Intermediate"},
+            {"name":"PostgreSQL","level":"Intermediate"},            
+            {"name":"Livewire","level":"Intermediate"}
         ]
     },{
         "id":"2",
@@ -39,10 +48,12 @@
             {"name":"Markdown","level":"Expert"},
             {"name":"Java","level":"Advanced"},
             {"name":"Python","level":"Beginner"},
-            {"name":"Shell","level":"Advanced"},
-            {"name":"Behat","level":"Beginner"},
-            {"name":"Go","level":"Beginner"}
-        ]
+            {"name":"LaTeX","level":"Advanced"},
+            {"name":"Bash","level":"Advanced"},
+            {"name":"Go","level":"Beginner"},
+            {"name":"YAML","level":"Intermediate"},
+            {"name":"JSON","level":"Expert"},
+            {"name":"XML","level":"Advanced"}        ]
     },{
         "id":"3",
         "grouping":"Operating Systems & Tools",
@@ -51,21 +62,31 @@
             {"name":"Debian","level":"Expert"},
             {"name":"Ubuntu","level":"Advanced"},
             {"name":"Android","level":"Intermediate"},
-            {"name":"Windows","level":"Advanced"},
-            {"name":"MacOS","level":"Intermediate"},
+            {"name":"Windows 11","level":"Advanced"},
+            {"name":"Apple","level":"Intermediate"},
             {"name":"vim","level":"Advanced"},
-            {"name":"PhpStorm","level":"Expert"}
+            {"name":"PhpStorm","level":"Expert"},
+            {"name":"VS Code","level":"Advanced"},
+            {"name":"Postman","level":"Advanced"},
+            {"name":"PuTTY","level":"Advanced"},
+            {"name":"Jira","level":"Advanced"},
+            {"name":"Confluence","level":"Advanced"},
+            {"name":"Grafana","level":"Intermediate"},
+            {"name":"Rancher","level":"Beginner"},
+            {"name":"DBeaver","level":"Advanced"}
         ]
     },{
         "id":"4",
         "grouping":"Architecture, Containers & Cloud",
         "skills":[
-            {"name":"IP Networking","level":"Intermediate"},
-            {"name":"DNS","level":"Advanced"},
-            {"name":"Firewalls","level":"Advanced"},
-            {"name":"Microservices","level":"Beginner"},
             {"name":"Docker","link":"https://docker.com","level":"Intermediate"},
-            {"name":"Vagrant","link":"https://www.vagrantup.com","level":"Advanced"}
-        ]
+            {"name":"Vagrant","link":"https://www.vagrantup.com","level":"Advanced"},
+            {"name":"Kubernetes","link":"https://kubernetes.io","level":"Beginner"},
+            {"name":"Argo CD","level":"Beginner"},
+            {"name":"Netlify","level":"Intermediate"},
+            {"name":"Ansible","link":"https://www.ansible.com","level":"Intermediate"},
+            {"name":"Amazon Web Services","link":"https://aws.amazon.com","level":"Intermediate"},
+            {"name":"Google Cloud","link":"https://cloud.google.com/","level":"Beginner"},
+            {"name":"Digital Ocean","link":"https://www.digitalocean.com/","level":"Intermediate"}        ]
     }
 ]
