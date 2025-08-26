@@ -1,5 +1,5 @@
 [build.environment]
-  NODE_VESION = "22.18.0"
+  NODE_VESION = "22"
   HUGO_VERSION = "0.148.2"
   HUGO_ENV = "production"
   TZ = "Europe/Zurich"
