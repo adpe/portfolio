@@ -15,12 +15,15 @@ weight: '999'
 sitemap:
   - priority: '0.8'
 ---
+
 #### What is Moodle?
-**Moodle** is a learning platform designed to provide educators, administrators and learners with a single robust, secure and integrated system to create personalised learning environments. 
+
+**Moodle** is a learning platform designed to provide educators, administrators and learners with a single robust, secure and integrated system to create personalised learning environments.
 
 ![Moodle](/img/moodle.png "Moodle")
 
 #### Why Moodle?
+
 Due to my professional activity, my interest in this open source project has increased. I try to get involved in this community as much as possible.
 
 For all interested developers there is a Telegram [Moodle Dev Chat](https://telegram.me/moodledev).

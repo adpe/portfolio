@@ -17,6 +17,7 @@ link: https://moodle.org/plugins
 fact: +1500 plugins
 weight: 200
 ---
+
 I'm one of these developers and I want to let you know a bit more about that.
 
 My first own released plugin was a plugin which retries information about the installed plugins on a Moodle instance. Moodle differs between plugin types. My plugin is named `Plugins fetcher` and is a `web service` which is unfortunately missing in the Moodle core.
