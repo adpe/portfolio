@@ -16,11 +16,9 @@ For simplicity, I'll provide here all ran commands for my instance which is runn
 
 1. Running `mongodump` alone from the command line without any options will assume the database is located on localhost at port 27017 with no authentication. When the backup is completed, a `/dump` directory is created:
 
-   ```shellsession
+   ```shell
    mongodump
    ```
-
-
 2. Upgrade MongoDB from version 6 to 7 (<https://www.mongodb.com/docs/manual/release-notes/7.0-upgrade-standalone/#std-label-7.0-upgrade-standalone>):
 
    ```
@@ -39,8 +37,6 @@ For simplicity, I'll provide here all ran commands for my instance which is runn
       gpg -o /usr/share/keyrings/mongodb-server-7.0.gpg \
       --dearmor
    ```
-
-
 4. Create the list file for version 7:
 
    ```
@@ -96,9 +92,6 @@ For simplicity, I'll provide here all ran commands for my instance which is runn
     ```
     echo "deb [ signed-by=/usr/share/keyrings/mongodb-server-8.0.gpg ] https://repo.mongodb.org/apt/debian bookworm/mongodb-org/8.0 main" | tee /etc/apt/sources.list.d/mongodb-org-8.0.list
     ```
-
-
-
 11. Reload the package database and install MongoDB latest 8.0.x version:
 
     ```
@@ -110,10 +103,6 @@ For simplicity, I'll provide here all ran commands for my instance which is runn
     mongod --version
     systemctl start mongod
     ```
-
-
-
-
 13. Enable backwards-incompatible 8.0 features:
 
     ```
@@ -138,8 +127,6 @@ For simplicity, I'll provide here all ran commands for my instance which is runn
     ```
     echo "deb [ signed-by=/usr/share/keyrings/mongodb-server-8.0.gpg ] https://repo.mongodb.org/apt/debian bookworm/mongodb-org/8.2 main" | tee /etc/apt/sources.list.d/mongodb-org-8.2.list
     ```
-
-
 16. Reload the package database and install MongoDB latest 8.2.x version:
 
     ```
