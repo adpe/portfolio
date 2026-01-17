@@ -16,12 +16,12 @@ For simplicity, I'll provide here all ran commands for my instance which is runn
 
 1. Running `mongodump` alone from the command line without any options will assume the database is located on localhost at port 27017 with no authentication. When the backup is completed, a `/dump` directory is created:
 
-   ```shell
+   ```shellsession
    mongodump
    ```
 2. Upgrade MongoDB from version 6 to 7 (<https://www.mongodb.com/docs/manual/release-notes/7.0-upgrade-standalone/#std-label-7.0-upgrade-standalone>):
 
-   ```
+   ```shellsession
    monogsh
 
    # The 6.0 instance must have featureCompatibilityVersion set to "6.0". To check featureCompatibilityVersion:
@@ -32,19 +32,19 @@ For simplicity, I'll provide here all ran commands for my instance which is runn
    ```
 3. Import the version 7 public key:
 
-   ```
+   ```shellsession
    curl -fsSL https://www.mongodb.org/static/pgp/server-7.0.asc | \
       gpg -o /usr/share/keyrings/mongodb-server-7.0.gpg \
       --dearmor
    ```
 4. Create the list file for version 7:
 
-   ```
+   ```shellsession
    echo "deb [ signed-by=/usr/share/keyrings/mongodb-server-7.0.gpg ] https://repo.mongodb.org/apt/debian bookworm/mongodb-org/7.0 main" | tee /etc/apt/sources.list.d/mongodb-org-7.0.list
    ```
 5. Reload the package database and install MongoDB version 7.0.24:
 
-   ```
+   ```shellsession
    apt update && apt install -y \
       mongodb-org=7.0.24 \
       mongodb-org-database=7.0.24 \
@@ -57,13 +57,13 @@ For simplicity, I'll provide here all ran commands for my instance which is runn
    ```
 6. Check version and start MongoDB:
 
-   ```
+   ```shellsession
    mongod --version
    systemctl start mongod
    ```
 7. Enable backwards-incompatible 7.0 features:
 
-   ```
+   ```shellsession
    mongosh
    db.adminCommand(
       {
@@ -74,7 +74,7 @@ For simplicity, I'll provide here all ran commands for my instance which is runn
    ```
 8. Upgrade MongoDB 7 to 8 (<https://www.mongodb.com/docs/manual/release-notes/8.0-upgrade-standalone/#std-label-8.0-upgrade-standalone>):
 
-   ```
+   ```shellsession
    monogsh
 
    # Shutdown mongod instance
@@ -82,30 +82,30 @@ For simplicity, I'll provide here all ran commands for my instance which is runn
    ```
 9. Import the version 8 public key:
 
-   ```
+   ```shellsession
    curl -fsSL https://www.mongodb.org/static/pgp/server-8.0.asc | \
       gpg -o /usr/share/keyrings/mongodb-server-8.0.gpg \
       --dearmor
    ```
 10. Create the list file for version 8.0:
 
-    ```
+    ```shellsession
     echo "deb [ signed-by=/usr/share/keyrings/mongodb-server-8.0.gpg ] https://repo.mongodb.org/apt/debian bookworm/mongodb-org/8.0 main" | tee /etc/apt/sources.list.d/mongodb-org-8.0.list
     ```
 11. Reload the package database and install MongoDB latest 8.0.x version:
 
-    ```
+    ```shellsession
     apt update && apt install -y mongodb-org
     ```
 12. Check version and start MongoDB:
 
-    ```
+    ```shellsession
     mongod --version
     systemctl start mongod
     ```
 13. Enable backwards-incompatible 8.0 features:
 
-    ```
+    ```shellsession
     mongosh
     db.adminCommand(
        {
@@ -116,7 +116,7 @@ For simplicity, I'll provide here all ran commands for my instance which is runn
     ```
 14. Upgrade MongoDB from version 8.0.x to 8.2.x (<https://www.mongodb.com/docs/manual/release-notes/8.2-upgrade-standalone>):
 
-    ```
+    ```shellsession
     monogsh
 
     # Shutdown mongod instance
@@ -124,23 +124,23 @@ For simplicity, I'll provide here all ran commands for my instance which is runn
     ```
 15. Create the list file for version 8.2:
 
-    ```
+    ```shellsession
     echo "deb [ signed-by=/usr/share/keyrings/mongodb-server-8.0.gpg ] https://repo.mongodb.org/apt/debian bookworm/mongodb-org/8.2 main" | tee /etc/apt/sources.list.d/mongodb-org-8.2.list
     ```
 16. Reload the package database and install MongoDB latest 8.2.x version:
 
-    ```
+    ```shellsession
     apt update && apt install -y mongodb-org
     ```
 17. Check version and start MongoDB:
 
-    ```
+    ```shellsession
     mongod --version
     systemctl start mongod
     ```
 18. Enable backwards-incompatible 8.2 features:
 
-    ```
+    ```shellsession
     mongosh
     db.adminCommand(
        {
@@ -151,7 +151,7 @@ For simplicity, I'll provide here all ran commands for my instance which is runn
     ```
 19. Update Rocket.Chat to 8.0.1:
 
-    ```
+    ```shellsession
     systemctl stop rocketchat
     rm -rf /opt/Rocket.Chat
     curl -L https://releases.rocket.chat/8.0.1/download -o /tmp/rocket.chat.tgz
