@@ -4,7 +4,7 @@ description: This is a step-by-step guide for backing up and upgrading a
   Rocket.Chat instance along with its MongoDB database.
 featured: true
 image: /img/rocketchat-upgrade.jpeg
-weight: 100
+weight: 99
 ---
 The newest release with version 8 from [Rocket.Chat](https://www.rocket.chat/blog/introducing-rocket-chat-8-0) was released some days ago.
 
