@@ -52,20 +52,24 @@ gulp.task('minify-js', function () {
 });
 
 gulp.task('purgecss', () => {
-    return gulp.src('themes/resume/src/css/*.css')
-        .pipe(purgecss({
-            content: ['themes/resume/layouts/**/*.html'],
-            safelist: [
-                /^github$/,                     // .github
-                /^linkedin$/,                   // .linkedin
-                /^stack-overflow$/,             // .stack-overflow
-                /^xing$/,                       // .xing
-                /^telegram$/,                   // .telegram
-                /^signalapp$/,                  // .signalapp
-                /^icomoon-findpenguins$/,
-            ]
-        }))
-        .pipe(gulp.dest('themes/resume/src/css'))
+    return gulp
+      .src("themes/resume/src/css/*.css")
+      .pipe(
+        purgecss({
+          content: ["themes/resume/layouts/**/*.html"],
+          safelist: [
+            /^github$/, // .github
+            /^linkedin$/, // .linkedin
+            /^stack-overflow$/, // .stack-overflow
+            /^xing$/, // .xing
+            /^telegram$/, // .telegram
+            /^signalapp$/, // .signalapp
+            /^icomoon-findpenguins$/,
+            "pre",
+          ],
+        }),
+      )
+      .pipe(gulp.dest("themes/resume/src/css"));
 });
 
 gulp.task('default', gulp.series('purgecss', 'prettier', gulp.parallel('minify-css', 'minify-js')));
