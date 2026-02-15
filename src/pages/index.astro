@@ -1,0 +1,45 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import About from '../components/About.astro';
+import Education from '../components/Education.astro';
+import Experience from '../components/Experience.astro';
+import Skills from '../components/Skills.astro';
+import Projects from '../components/Projects.astro';
+import { siteConfig } from '../config';
+
+import educationData from '../../data/education.json';
+import experienceData from '../../data/experience.json';
+import skillsData from '../../data/skills.json';
+import creationsData from '../../data/creations.json';
+import contributionsData from '../../data/contributions.json';
+
+const creationsContent = `<p>This is an overview of projects I created myself or with colleagues during my studies and shared with the community.</p>`;
+
+const contributionsContent = `<h3>Why Open-source?</h3>
+
+<p>Here you can see an overview of projects I am involved in. Why I am interested in open-source projects is mainly the motivation to grow personally.</p>
+
+<p>But here are some other points what open-source means:</p>
+
+<ul>
+<li>Great way to learn how to code.</li>
+<li>It's fun, it should be a hobby.</li>
+<li>You can give something back.</li>
+</ul>`;
+---
+
+<BaseLayout title="Home" isHomePage={true}>
+  <About />
+
+  {siteConfig.showSkills && <Skills items={skillsData} />}
+
+  {siteConfig.showProjects && <Projects items={creationsData} sectionTitle="Creations" sectionId="creations" projectType="creations" content={creationsContent} />}
+
+  {siteConfig.showOpenSource && <Projects items={contributionsData} sectionTitle="Open Source" sectionId="open" projectType="contributions" content={contributionsContent} />}
+
+  {siteConfig.showPublications && <Projects items={[]} sectionTitle="Publications" sectionId="publications" projectType="publications" />}
+
+  {siteConfig.showExperience && <Experience items={experienceData} />}
+
+  {siteConfig.showEducation && <Education items={educationData} />}
+</BaseLayout>

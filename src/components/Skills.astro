@@ -1,0 +1,122 @@
+---
+import type { SkillsData } from '../types';
+
+interface Props {
+  items: SkillsData[];
+}
+
+const { items } = Astro.props;
+
+// Helper function to convert skill name to devicon class
+const getDevIconClass = (name: string): string => {
+  return `devicon-${name.replace(/\s+/g, '').replace(/\./g, '').toLowerCase()}-plain colored`;
+};
+---
+
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+  <div class="my-auto" id="skills-content">
+    <h2 class="mb-5">Skills</h2>
+    <div class="dropdown mb-4">
+      <button
+        class="btn btn-outline-secondary dropdown-toggle px-4 py-2"
+        type="button"
+        id="skills-category-dropdown"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        <span id="skills-category-dropdown-label">
+          {items[0]?.grouping}
+        </span>
+      </button>
+      
+      <ul class="dropdown-menu" aria-labelledby="skills-category-dropdown">
+        {items.map((group, i) => (
+          <li>
+            <a
+              class={`dropdown-item${i === 0 ? ' active' : ''}`}
+              href="#"
+              data-category={`category-${group.id}`}
+            >
+              {group.grouping}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+    <div id="skills-category-lists">
+      {items.map((group, i) => (
+        <ul
+          class="list-group skills-category-list"
+          id={`category-${group.id}`}
+          style={i !== 0 ? 'display:none;' : ''}
+        >
+          {group.skills
+            .sort((a, b) => a.name.localeCompare(b.name))
+            .map((skill) => (
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span>
+                  <i class={getDevIconClass(skill.name)}></i>
+                  {skill.name}
+                  {skill.link && (
+                    <a
+                      href={skill.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      title="External link"
+                    >
+                      <i class="fa fa-external-link"></i>
+                    </a>
+                  )}
+                </span>
+                <span class="badge bg-light text-dark rounded-pill border">
+                  {skill.level}
+                </span>
+              </li>
+            ))}
+        </ul>
+      ))}
+    </div>
+  </div>
+</section>
+
+<script>
+  // Dropdown category switching
+  document.addEventListener('DOMContentLoaded', () => {
+    const dropdownItems = document.querySelectorAll(
+      '#skills-category-dropdown ~ .dropdown-menu .dropdown-item'
+    );
+    const dropdownLabel = document.getElementById(
+      'skills-category-dropdown-label'
+    );
+    const categoryLists = document.querySelectorAll('.skills-category-list');
+
+    dropdownItems.forEach((item) => {
+      item.addEventListener('click', (e) => {
+        e.preventDefault();
+
+        // Update active state
+        dropdownItems.forEach((i) => i.classList.remove('active'));
+        (e.target as HTMLElement).classList.add('active');
+
+        // Update label
+        if (dropdownLabel) {
+          dropdownLabel.textContent = (
+            e.target as HTMLElement
+          ).textContent?.trim();
+        }
+
+        // Show/hide categories
+        const categoryId = (e.target as HTMLElement).getAttribute(
+          'data-category'
+        );
+        categoryLists.forEach((list) => {
+          if (list.id === categoryId) {
+            list.style.display = 'block';
+          } else {
+            list.style.display = 'none';
+          }
+        });
+      });
+    });
+  });
+</script>

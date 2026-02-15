@@ -1,0 +1,67 @@
+---
+import { siteConfig } from '../config';
+
+export interface Props {
+  content?: string;
+}
+
+const { content } = Astro.props;
+---
+
+<section
+  class="resume-section resume-section-sm p-3 p-lg-5 d-flex flex-column"
+  id="about"
+>
+  <div class="my-auto">
+    <div class="resume-item d-flex flex-column">
+      <div class="me-auto">
+        <span class="d-block d-lg-none">
+          <img
+            class="img-fluid img-profile rounded-circle mx-auto mb-2"
+            src={siteConfig.profileImage}
+            alt={`Profile picture of ${siteConfig.firstName} ${siteConfig.lastName}`}
+          />
+        </span>
+        <h1 class="d-none d-md-block mb-0">
+          {siteConfig.firstName}
+          <span class="text-primary">{siteConfig.lastName}</span>
+        </h1>
+        <div class="subheading mt-3 mb-5">
+          {siteConfig.address} ·
+          <a
+            href={`mailto:${siteConfig.email.substring(0, 5)}-remove-${siteConfig.email.substring(5)}`}
+            aria-label={`Send an email to ${siteConfig.firstName} ${siteConfig.lastName}`}
+          >
+            {siteConfig.email.substring(0, 5)}<span class="email-obfuscate">-remove-</span>{siteConfig.email.substring(5)}
+          </a>
+        </div>
+      </div>
+
+      {siteConfig.showQr && <div>QR Code</div>}
+    </div>
+    <div>
+      {content && <div set:html={content} />}
+      <div class="row col-xl-12 px-lg-0 list-icons list-social-icons">
+        {siteConfig.handles.map((handle) => (
+          <div class={`col-3 col-md-1 ${handle.icon}`}>
+            <a
+              href={handle.link}
+              target="_blank"
+              data-bs-toggle="tooltip"
+              title={handle.name}
+              aria-label={`Visit ${handle.name} profile`}
+              data-offset="0 0"
+            >
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i
+                  class={`fa fa-${handle.icon} fa-stack-1x fa-inverse`}
+                ></i>
+              </span>
+            </a>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,37 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import creationsData from '../../../data/creations.json';
+import contributionsData from '../../../data/contributions.json';
+
+// Collect all unique tags from all projects
+const allProjects = [...creationsData, ...contributionsData];
+const tagCounts = new Map<string, number>();
+
+allProjects.forEach(project => {
+  if (project.tags) {
+    project.tags.forEach(tag => {
+      tagCounts.set(tag, (tagCounts.get(tag) || 0) + 1);
+    });
+  }
+});
+
+// Sort tags alphabetically
+const sortedTags = Array.from(tagCounts.entries()).sort((a, b) => a[0].localeCompare(b[0]));
+---
+
+<BaseLayout title="Tags">
+  <section class="resume-section p-3 p-lg-5 d-flex flex-column">
+    <div class="my-auto" id="projects-content">
+      <h1 class="mb-5"><span class="text-primary">Tags</span></h1>
+      <ul>
+        {sortedTags.map(([tag, count]) => (
+          <li>
+            <a href={`/tags/${tag.toLowerCase().replace(/\s+/g, '-')}`}>
+              {tag} ({count})
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+</BaseLayout>

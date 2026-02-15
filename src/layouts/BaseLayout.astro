@@ -1,0 +1,72 @@
+---
+import { siteConfig } from '../config';
+import Navigation from '../components/Navigation.astro';
+import BackToTop from '../components/BackToTop.astro';
+import '../styles/resume.css';
+
+export interface Props {
+  title: string;
+  description?: string;
+  isHomePage?: boolean;
+}
+
+const { title, description = siteConfig.description, isHomePage = false } = Astro.props;
+const fullTitle = isHomePage ? siteConfig.title : `${title} | ${siteConfig.title}`;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>{fullTitle}</title>
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:image" content={siteConfig.profileImage} />
+    <meta name="description" content={description} />
+    <meta property="og:description" content={description} />
+    <meta name="author" content={`${siteConfig.firstName} ${siteConfig.lastName}`} />
+    
+    <!-- Icons & Fonts -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css" />
+    <link href="/css/all.min.css" rel="stylesheet" />
+    <link href="/css/highlight/default.min.css" rel="stylesheet" />
+    
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="AdrianPerez" />
+    <link rel="manifest" href="/site.webmanifest" />
+    
+    <!-- Matomo Analytics -->
+    <script>
+      var _paq = window._paq = window._paq || [];
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="https://matomo.adrianperez.me/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '6']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <noscript>
+      <img referrerpolicy="no-referrer-when-downgrade" src="https://matomo.adrianperez.me/matomo.php?idsite=6&amp;rec=1" class="noscript-tracker" alt="" />
+    </noscript>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#sideNav" data-bs-offset="0" tabindex="0">
+    <Navigation isHomePage={isHomePage} />
+    <div class="container-fluid p-0">
+      <slot />
+    </div>
+    <BackToTop />
+    
+    <!-- Scripts -->
+    <script is:inline src="/js/all.min.js"></script>
+    <script is:inline src="/js/highlight/highlight.min.js"></script>
+    <script is:inline src="/js/highlight/shell.min.js"></script>
+    <script>hljs.highlightAll();</script>
+  </body>
+</html>

@@ -1,3 +1,15 @@
-.idea
-public/*
-node_modules/*
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build outputs
+dist/
+.astro/
+
+# IDE & Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.claude/
