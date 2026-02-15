@@ -1,4 +1,0 @@
-[submodule "resume"]
-	path = themes/resume
-	url = https://github.com/adpe/resume.git
-	ignore = dirty

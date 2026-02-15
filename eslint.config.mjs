@@ -13,17 +13,20 @@ const compat = new FlatCompat({
     allConfig: js.configs.all
 });
 
-export default defineConfig([{
-    extends: compat.extends("eslint:recommended", "plugin:tailwindcss/recommended"),
+export default defineConfig([
+  {
+    extends: compat.extends(
+      "eslint:recommended",
+      "plugin:tailwindcss/recommended",
+    ),
 
     languageOptions: {
-        globals: {
-            ...globals.browser,
-            ...globals.node,
-            bootstrap: "readonly"
-        },
+      globals: {
+        ...globals.browser,
+        ...globals.node,
+        bootstrap: "readonly",
+      },
     },
-    ignores: [
-        "themes/resume/static/js/**/*"
-    ]
-}]);
+    ignores: ["dist/**/*", ".astro/**/*", "node_modules/**/*"],
+  },
+]);

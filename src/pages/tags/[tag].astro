@@ -1,0 +1,59 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import creationsData from '../../../data/creations.json';
+import contributionsData from '../../../data/contributions.json';
+
+export async function getStaticPaths() {
+  // Mark projects with their type
+  const creations = creationsData.map(p => ({ ...p, projectType: 'creations' }));
+  const contributions = contributionsData.map(p => ({ ...p, projectType: 'contributions' }));
+  const allProjects = [...creations, ...contributions];
+
+  const tags = new Set<string>();
+
+  allProjects.forEach(project => {
+    if (project.tags) {
+      project.tags.forEach(tag => tags.add(tag));
+    }
+  });
+
+  return Array.from(tags).map(tag => {
+    const tagSlug = tag.toLowerCase().replace(/\s+/g, '-');
+    const relatedProjects = allProjects.filter(project =>
+      project.tags?.some(t => t.toLowerCase().replace(/\s+/g, '-') === tagSlug)
+    );
+
+    return {
+      params: { tag: tagSlug },
+      props: {
+        tag,
+        projects: relatedProjects
+      }
+    };
+  });
+}
+
+const { tag, projects } = Astro.props;
+---
+
+<BaseLayout title={`Tag: ${tag}`}>
+  <section class="resume-section p-3 p-lg-5 d-flex d-column">
+    <div class="my-auto">
+      <h1 class="mb-0"><span class="text-primary">Tags</span></h1>
+      <div class="resume-item d-flex flex-column flex-md-row mb-5">
+        <div class="resume-content me-auto">
+          <h3 class="mb-3">All related contents for the tag <code>{tag}</code></h3>
+          <ul>
+            {projects.map(project => (
+              <li>
+                <a href={`/${project.projectType}/${project.slug}`}>
+                  {project.title}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
