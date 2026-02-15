@@ -4,13 +4,15 @@ backend:
 
 publish_mode: editorial_workflow
 
-media_folder: "static/img"
+media_folder: "public/img"
 public_folder: "/img"
 
 collections:
   - name: "contributions"
     label: "Contributions"
-    folder: "content/projects/contributions"
+    folder: "src/pages/contributions"
+    extension: "mdx"
+    format: "frontmatter"
     create: true
     slug: ""
     fields:
@@ -29,7 +31,9 @@ collections:
         - {label: "Priority", name: "priority", required: false, widget: "number"}
   - name: "creations"
     label: "Creations"
-    folder: "content/projects/creations"
+    folder: "src/pages/creations"
+    extension: "mdx"
+    format: "frontmatter"
     create: true
     slug: ""
     fields:
@@ -43,7 +47,9 @@ collections:
       - {label: "Weight", name: "weight", required: false, widget: "number", default: 400}
   - name: "publications"
     label: "Publications"
-    folder: "content/publications"
+    folder: "src/pages/publications"
+    extension: "mdx"
+    format: "frontmatter"
     create: true
     slug: ""
     fields:
