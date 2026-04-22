@@ -13,10 +13,10 @@
     "npm": ">=10.8.0"
   },
   "devDependencies": {
-    "@astrojs/markdown-remark": "^6.3.0",
-    "@astrojs/sitemap": "^3.7.0",
+    "@astrojs/markdown-remark": "^7.1.1",
+    "@astrojs/sitemap": "^3.7.2",
     "@types/node": "^22.0.0",
-    "astro": "^5.18.1",
+    "astro": "^6.1.9",
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.38",
     "purgecss": "^5.0.0",
@@ -24,10 +24,10 @@
     "typescript": "^5.6.0"
   },
   "dependencies": {
-    "@astrojs/markdoc": "^0.15.10",
-    "@astrojs/mdx": "^4.3.0",
-    "@astrojs/netlify": "^6.6.4",
-    "@astrojs/react": "^4.4.2",
+    "@astrojs/markdoc": "^1.0.4",
+    "@astrojs/mdx": "^5.0.4",
+    "@astrojs/netlify": "^7.0.8",
+    "@astrojs/react": "^5.0.4",
     "@keystatic/astro": "^5.0.6",
     "@keystatic/core": "^0.5.48",
     "@types/react": "^19.2.14",
