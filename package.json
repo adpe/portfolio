@@ -16,7 +16,7 @@
     "@astrojs/markdown-remark": "^6.3.0",
     "@astrojs/sitemap": "^3.7.0",
     "@types/node": "^22.0.0",
-    "astro": "^6.1.6",
+    "astro": "^6.1.0",
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.38",
     "purgecss": "^5.0.0",
