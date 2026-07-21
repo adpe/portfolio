@@ -40,7 +40,8 @@
     "minimatch": "10.2.3",
     "uuid": "11.1.1",
     "esbuild": "0.28.1",
-    "@opentelemetry/core": ">=2.8.0"
+    "@opentelemetry/core": ">=2.8.0",
+    "js-yaml": "4.3.0"
   },
   "repository": {
     "type": "git",
@@ -48,5 +49,5 @@
   },
   "author": "Adrian Perez Rodriguez",
   "homepage": "https://adrianperez.me",
-  "description": "I am a CRM developer at AMAG Corporate Services AG currently living in Fürigen, Switzerland. My interests range from programming to travel. I am also interested in DIY, sports, and technology."
+  "description": "I am a CRM developer at AMAG Corporate Services AG currently living in Fürigen, Switzerland. My interests range from programming to travel. I am also interested in DIY, sports, [...]"
 }
