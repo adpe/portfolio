@@ -55,7 +55,7 @@ const backLink = type === 'contribution' ? '/#contributions' : '/#creations';
         <ul class="tags">
           {tags.map((tag) => (
             <li>
-              <a class="tag" href={`/tags/${tag.toLowerCase().replace(/\s+/g, '-')}`}>{tag}</span></a>
+              <a class="tag" href={`/tags/${tag.toLowerCase().replace(/\s+/g, '-')}`}>{tag}</a>
             </li>
           ))}
         </ul>
