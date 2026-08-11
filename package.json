@@ -42,7 +42,7 @@
     "esbuild": "0.28.1",
     "@opentelemetry/core": ">=2.8.0",
     "js-yaml": "4.3.0",
-    "sharp":"0.35.3"
+    "sharp": "0.35.3"
   },
   "repository": {
     "type": "git",
@@ -50,5 +50,5 @@
   },
   "author": "Adrian Perez Rodriguez",
   "homepage": "https://adrianperez.me",
-  "description": "I am a CRM developer at AMAG Corporate Services AG currently living in Fürigen, Switzerland. My interests range from programming to travel. I am also interested in DIY, sports, and technology."
+  "description": "I am an API Platform Engineer at PostFinance AG currently living in Fürigen, Switzerland. My interests range from programming to travel. I am also interested in DIY, sports, and technology."
 }
