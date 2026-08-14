@@ -37,7 +37,9 @@
     "react-dom": "^19.2.8"
   },
   "overrides": {
-    "sharp": "0.35.3"
+    "sharp": "0.35.3",
+    "nanoid": "5.1.16",
+    "esbuild": "0.28.1"
   },
   "repository": {
     "type": "git",
@@ -45,5 +47,9 @@
   },
   "author": "Adrian Perez Rodriguez",
   "homepage": "https://adrianperez.me",
-  "description": "I am an API Platform Engineer at PostFinance AG currently living in Fürigen, Switzerland. My interests range from programming to travel. I am also interested in DIY, sports, and technology."
+  "description": "I am an API Platform Engineer at PostFinance AG currently living in Fürigen, Switzerland. My interests range from programming to travel. I am also interested in DIY, sports, and technology.",
+  "allowScripts": {
+    "esbuild@0.28.1": true,
+    "@parcel/watcher@2.5.6": true
+  }
 }
