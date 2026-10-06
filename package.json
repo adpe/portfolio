@@ -38,7 +38,7 @@
   },
   "overrides": {
     "@netlify/vite-plugin": "3.0.1",
-    "sharp": "0.35.4",
+    "sharp": "0.35.5",
     "nanoid": "5.1.16",
     "esbuild": "0.28.1",
     "react-aria": "3.49.0"
