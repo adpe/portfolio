@@ -10,7 +10,7 @@
   },
   "engines": {
     "node": ">=26.13.0",
-    "npm": ">=10.9.10"
+    "npm": ">=12.2.2"
   },
   "devDependencies": {
     "@astrojs/markdown-remark": "^7.3.7",
