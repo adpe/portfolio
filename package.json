@@ -30,11 +30,11 @@
     "@astrojs/react": "^6.0.6",
     "@keystatic/astro": "^5.2.0",
     "@keystatic/core": "^0.6.9",
-    "@types/react": "^19.2.18",
-    "@types/react-dom": "^19.2.4",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
     "bootstrap": "^5.3.8",
-    "react": "^19.2.8",
-    "react-dom": "^19.2.8"
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
   },
   "overrides": {
     "@netlify/vite-plugin": "3.0.1",
