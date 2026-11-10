@@ -19,7 +19,7 @@
     "astro": "^7.4.10",
     "autoprefixer": "^10.6.2",
     "postcss": "^8.5.32",
-    "purgecss": "^8.0.0",
+    "purgecss": "^9.1.0",
     "sass": "^1.108.1",
     "typescript": "^5.9.3"
   },
