@@ -17,7 +17,7 @@
     "@astrojs/sitemap": "^3.7.4",
     "@types/node": "^24.13.3",
     "astro": "^7.4.10",
-    "autoprefixer": "^10.5.4",
+    "autoprefixer": "^10.6.2",
     "postcss": "^8.5.32",
     "purgecss": "^8.0.0",
     "sass": "^1.108.1",
