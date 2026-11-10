@@ -9,13 +9,13 @@
     "purgecss": "purgecss --css src/styles/**/*.css public/**/*.css --content src/**/*.astro src/**/*.mdx"
   },
   "engines": {
-    "node": ">=24.0.0",
+    "node": ">=24.22.2",
     "npm": ">=10.9.10"
   },
   "devDependencies": {
     "@astrojs/markdown-remark": "^7.3.7",
     "@astrojs/sitemap": "^3.7.4",
-    "@types/node": "^24.13.3",
+    "@types/node": "^24.19.2",
     "astro": "^7.4.10",
     "autoprefixer": "^10.5.4",
     "postcss": "^8.5.32",
