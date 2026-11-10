@@ -21,7 +21,7 @@
     "postcss": "^8.5.32",
     "purgecss": "^9.1.0",
     "sass": "^1.108.1",
-    "typescript": "^5.9.3"
+    "typescript": "^7.0.2"
   },
   "dependencies": {
     "@astrojs/markdoc": "^2.1.4",
