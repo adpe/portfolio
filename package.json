@@ -43,7 +43,7 @@
     "nanoid": "6.0.2",
     "esbuild": "0.28.2",
     "react-aria": "3.53.1",
-    "glob": "14.0.4"
+    "glob": "14.0.5"
   },
   "repository": {
     "type": "git",
