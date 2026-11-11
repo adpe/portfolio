@@ -21,7 +21,7 @@
     "autoprefixer": "^10.6.2",
     "postcss": "^8.5.32",
     "purgecss": "^9.1.0",
-    "sass": "^1.108.1",
+    "sass": "^1.108.2",
     "typescript": "npm:@typescript/typescript6@^6.0.2"
   },
   "dependencies": {
