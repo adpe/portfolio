@@ -33,7 +33,7 @@
     "@keystatic/core": "^0.6.9",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
-    "bootstrap": "^5.3.8",
+    "bootstrap": "^5.3.9",
     "react": "^19.3.1",
     "react-dom": "^19.3.1"
   },
