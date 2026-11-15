@@ -9,7 +9,7 @@
     "purgecss": "purgecss --css src/styles/**/*.css public/**/*.css --content src/**/*.astro src/**/*.mdx"
   },
   "engines": {
-    "node": ">=26.13.0",
+    "node": ">=26.13.1",
     "npm": ">=12.2.2"
   },
   "devDependencies": {
