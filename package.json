@@ -30,7 +30,7 @@
     "@astrojs/netlify": "^8.2.14",
     "@astrojs/react": "^7.1.9",
     "@keystatic/astro": "^6.0.0",
-    "@keystatic/core": "^0.6.9",
+    "@keystatic/core": "^0.6.10",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "bootstrap": "^5.3.9",
