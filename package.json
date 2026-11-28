@@ -18,7 +18,7 @@
     "@types/node": "^26.6.11",
     "@typescript/native": "npm:typescript@^7.0.2",
     "astro": "^7.4.13",
-    "autoprefixer": "^10.7.0",
+    "autoprefixer": "^10.7.1",
     "postcss": "^8.5.34",
     "purgecss": "^9.1.0",
     "sass": "^1.108.2",
